@@ -1,0 +1,74 @@
+main {
+  margin: 0 auto;
+  max-width: 50%;
+  font-family: Arial, sans-serif;
+}
+
+.navigate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigate a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.burger-icon {
+  width: 30px;
+  display: none; /* скрыть все иконки по умолчанию */
+}
+
+.burger-icon.active {
+  display: block; /* показываем активную иконку */
+}
+
+.nav-menu {
+  display: none; /* скрываем меню */
+  width: 30%;
+  background: rgba(78, 78, 78, 0.1);
+  padding: 20px;
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  width: 100%;
+}
+.search-input {
+  background: rgba(78, 78, 78, 0.001);
+  color: black;
+  padding: 10px;
+  border: none;
+  flex: 1; /* input занимает всю ширину */
+}
+
+.search-input:focus {
+  color: black;
+  background: white;
+  outline: none;
+}
+
+.active {
+  display: block; /* показываем меню*/
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex a {
+  color: black;
+  text-decoration: none;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
